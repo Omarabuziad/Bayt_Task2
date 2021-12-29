@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Talentera</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <i class="fas fa-home"></i>
+            <h2 class="logo_h2">Logo</h2>
+
+
+        </div>
+        <ul class="header_list">
+            <li>Team</li>
+            <li>Work</li>
+            <li>Price</li>
+            <li>Contact</li>
+            <li class="dropdown_li">Dropdown<i class="fas fa-sort-down"></i></li>
+        </ul>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+    </header>
+
+    <div class="background_image">
+        <p class="background_image_text">Talentera</p>
+    </div>
+
+    <div class="Team_section">
+        <div class="Team_section_title">
+            <h2>OUR TEAM</h2>
+            <p>Meet the team - our office rats :</p>
+        </div>
+
+        <div class="Team_section_info">
+            <div>
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                <h3>Islam AlZatary</h3>
+                <p>Web Designer</p>
+            </div>
+
+            <div>
+                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ikRHGbiXJL8o/v0/1000x-1.jpg" />
+                <h3>Tayseer Emam</h3>
+                <p>support</p>
+            </div>
+
+            <div>
+                <img src="https://ultragreencorporation.com/wp-content/uploads/2019/02/person2.jpg" />
+                <h3>Eman Subhi</h3>
+                <p>Boss man</p>
+            </div>
+
+            <div>
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80" />
+                <h3>Reem Yakoub</h3>
+                <p>Fixer</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ourwork_section">
+
+        <div class="ourwork_section_text">
+            <h2>Our Work</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has survived not only five centuries, but also the leap into
+                 electronic typesetting, remaining essentially unchanged. It was popularised in 
+                 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                  and more recently with 
+                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        </div>
+
+        <div class="ourwork_section_card">
+            <img src="data:image/jpeg;base64,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" />
+            <div>
+            <h2>Customer 1</h2>
+            <h3>Trade</h3>
+            <ul>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+                <li>Blablabla</li>
+            </ul>
+            </div>
+        </div>
+        <div class="ourwork_section_card">
+            <img src="data:image/jpeg;base64,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" />
+            <div>
+                <h2>Customer 1</h2>
+                <h3>Trade</h3>
+                <ul>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                </ul>
+                </div>
+        </div>
+        <div class="ourwork_section_card">
+            <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__480.jpg" />
+            <div>
+                <h2>Customer 1</h2>
+                <h3>Trade</h3>
+                <ul>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                    <li>Blablabla</li>
+                </ul>
+                </div>
+        </div>
+        <div class="ourwork_section_plus">
+            <i class="fas fa-plus"></i>
+        </div>
+    </div>
+
+    <div class="contactus_section">
+        <div class="contactus_section_info">
+            <span class="contactus_text"><h2>Contact US</h2><hr/></span>
+            <h3>Address</h3>
+            <p>Swing by for a cup of coffee , or whatever.</p>
+            <span class="contactus_info"><i class="fas fa-map-marker-alt"></i>Amman , Jordan</span>
+            <span class="contactus_info"><i class="fas fa-phone-alt"></i>+96278000000</span>
+            <span class="contactus_info"><i class="far fa-envelope"></i>test@test.com</span>
+        </div>
+        <div class="message_form">
+            <label>
+                <h3>Name</h3>
+                <input />
+            </label>
+
+            <label>
+                <h3>Email</h3>
+                <input />
+            </label>
+
+
+            <label>
+                <h3>Message</h3>
+                <input />
+            </label>
+
+            <div class="message_form_submit">
+                <span><input type="checkbox"/> I Like It!</span>
+                <button>Send</button>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+
+       
+            <h2>Follow Us</h2>
+            <div class="footer_icons">
+                <div><i class="fab fa-facebook-f"></i></div>
+               <div><i class="fab fa-twitter"></i></div>
+               <div><i class="fab fa-google-plus-g"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+              <div><i class="fab fa-linkedin-in"></i></div>
+            </div>
+
+            <div class="footer_arrow">
+                <i class="fas fa-chevron-circle-up"></i>
+            </div>
+        
+
+    </footer>
+
+
+
+    
+</body>
+
+
+
+
+
+</html>

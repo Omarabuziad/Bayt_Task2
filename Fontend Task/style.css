@@ -1,0 +1,501 @@
+body{
+    margin : 0 ; 
+}
+
+/* Header Styling ****************************************** */
+.header{
+    background-color : black ; 
+    display:flex;
+   position: relative;
+}
+.header_logo{
+    background-color : rgb(0, 150, 136); 
+    color : white;
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0 0.6%;
+}
+.logo_h2{
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1.3em;
+  margin: 0;
+}
+.header_list{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : white ;
+    margin : 10px 0 ;
+    list-style: none;
+    padding-left: 0;
+    
+}
+.header_list > li {
+    margin-left: 0;
+}
+.fa-search{
+    color:white;
+    font-size: 20px;
+    position :absolute;
+    right: 0.5%;
+    top:25%;  
+}
+.fa-bars{
+    display: none;
+}
+.dropdown_li{
+    display: flex;
+}
+.fa-sort-down{
+    margin-left:4px; 
+}
+
+
+/* BackGround Image Section ***************** */
+.background_image{
+    background-image: url("./photo.jpg");
+    height: 400px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.background_image_text{
+    position: absolute;
+    bottom: 10px;
+    left : 10px ;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size:20px;
+    text-align: center;
+    margin: 0;
+    color :white;
+    background-color: black;
+    padding:10px 12px;
+    
+}
+
+/* Team Section ***************** */
+
+.Team_section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.Team_section_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5%;
+    
+}
+
+.Team_section_title>h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Team_section_title>p{
+    margin: 15px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Team_section_info{
+    width:80%;
+    margin:0 auto;
+    margin-top:3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Team_section_info>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Team_section_info>div>img{
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+}
+
+.Team_section_info>div>h3{
+    font-weight: 600;
+    margin: 10px 0 8px 0 ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.Team_section_info>div>p{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* ourwork Section ***************** */
+.ourwork_section{
+    background-color: rgb(51, 51, 51);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding : 40px 5px;
+    position: relative;
+}
+.ourwork_section_text{
+    width: 24%;
+    color :white;
+}
+.ourwork_section_card{
+    width: 24%;
+    background-color:white;
+}
+
+.ourwork_section_card > img{
+    width:100%;
+    height: 50%;
+}
+.ourwork_section_card>div{
+ padding: 10px 10px;
+}
+.ourwork_section_card > div>h2{
+    margin : 0 0 10px 0 ; 
+}
+.ourwork_section_card > div>h3{
+    margin : 0 0 15px 0 ; 
+}
+.ourwork_section_card > div>ul{
+    margin : 10px 0 ;
+    list-style: none;
+    padding-left: 0;
+}
+.ourwork_section_card > div>ul>li{
+    margin : 13px 0 ;
+}
+.ourwork_section_plus{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color: rgb(0,150,137);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: -17px;
+    right: 1%;
+}
+
+
+/* ContactUs Section ***************** */
+
+.contactus_section{
+    background-color: rgb(240,240,240);
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding : 4% 2% ; 
+}
+.contactus_section_info{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactus_text>h2{
+    margin: 0;
+}
+.contactus_text>hr{
+    margin: 0;
+    border :rgb(0, 150, 136) solid 4px;
+    width: 37%;
+}
+.contactus_section_info>h3{
+    margin: 10% 0 7% 0;
+}
+.contactus_section_info>p{
+    margin: 0 0 7% 0;
+    font-weight: 500;
+}
+.contactus_info{
+    font-weight: 500;
+    display: flex;
+    margin-bottom:7%;
+    align-items: center;
+    gap : 6px;
+}
+.contactus_info>i{
+    font-size: 24px;
+    color :rgb(0, 150, 136)
+}
+.message_form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 1%;
+}
+.message_form>label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.message_form>label>h3{
+    margin: 0 0 1.4% 0 ;
+}
+.message_form>label>input{
+    margin: 0;
+    border : none;
+    border-bottom: 1.3px solid rgba(126, 122, 122, 0.521);
+    margin: 0 0 1.8% 0 ;
+}
+.message_form>label>input:focus{
+    outline: none;
+}
+.message_form_submit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message_form_submit>span{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.message_form_submit>button{
+    padding:1% 2%;
+    background-color:black;
+    color:white;
+    border:none;
+} 
+
+/* Footer Section ***************** */
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 150px;
+    position: relative;
+}
+
+.footer>h2{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.footer_icons{
+    display:flex;
+    gap: 5px;
+}
+
+.footer_icons>div{
+    background-color:rgb(0, 150, 136);
+    width : 50px;
+    height: 50px;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 30px;
+    
+}
+
+
+.footer_arrow{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 1%;
+    top:-15%;
+    font-size: 23px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ipad Screens  */
+
+@media (max-width:1024px){
+    .header_logo{
+        width: 11%;  
+    }
+    .header_list{
+        width: 40%;
+    }
+
+   /* Team Section ***************** */
+
+   .Team_section_info{
+    gap:5px;
+   }
+
+
+   .Team_section_info>div>img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    }
+
+    /* ContactUs Section ***************** */
+    .message_form{
+        height: 75%;
+        margin-top: 3%;
+    }
+
+    
+   .message_form>label>h3{
+    margin: 0 0 3% 0 ;
+   }
+   .message_form>label>input{
+    margin: 0 0 3% 0 ;
+  }
+
+  .message_form_submit>button{
+    padding:3% 6%;
+  }
+
+
+}
+
+
+
+
+
+/* Mobile Screens  */
+
+@media (max-width:657px){
+    .header_logo{
+        padding : 0 2%;
+        width: 20%;
+        height: 40px;   
+    }
+    .header_list{
+        display:none;
+    }
+    .fa-search{
+        display: none!important;
+    }
+    .fa-bars{
+        color:white;
+     font-size: 25px;
+      position :absolute;
+      right: 2.5%;
+      top:18%;  
+    }
+
+    /* BackGround Image Section ***************** */
+
+    .background_image{
+        height: 250px;
+        background-position: center;
+    }
+
+
+
+    /* Team Section ***************** */
+
+    .Team_section_title{
+        margin-top:15%;
+    }
+    .Team_section_title>h2{
+        font-size: 25px;
+    }
+    .Team_section_title>p{
+        font-size: 15px;
+    }
+    .Team_section_info{
+        flex-direction: column;
+        margin-top:10%;
+        gap:25px;
+    }
+    .Team_section_info>div>img{
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+    }
+
+    /* ourwork Section ***************** */
+   .ourwork_section{
+    flex-direction: column;
+    height: auto;
+    }
+
+    .ourwork_section_text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .ourwork_section_card{
+        width: 95%;
+        background-color:white;
+        margin: 5px auto;
+    }
+
+    .ourwork_section_plus{
+        right: 4%;
+    }
+
+    /* ContactUs Section ***************** */
+
+.contactus_section{
+    flex-direction: column;
+    padding : 14% 5% ; 
+    height: 30%;
+}
+
+.message_form{
+    margin-top:4%;
+    width: 93%;
+    padding: 7% 4%;
+    
+}
+
+
+.message_form>label>h3{
+    margin: 0 0 7% 0 ;
+    font-weight: 400;
+}
+.message_form>label>input{
+    margin: 0 0 6% 0 ;
+}
+
+.message_form_submit>button{
+    padding:3% 6%;
+}
+
+.footer_icons>div{
+    width : 40px;
+    height: 40px;
+    font-size: 20px; 
+}
+.footer_arrow{
+    top: -10%;
+    right: 4%;
+}
+
+}
